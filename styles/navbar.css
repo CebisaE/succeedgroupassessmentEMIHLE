@@ -1,0 +1,59 @@
+.container{
+    justify-content: center;
+}
+
+.collapse{
+    margin-left: 90px;
+}
+.nav-link{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-left: 50px;
+}
+
+.nav-but{
+    margin-left: 90px;
+}
+.but{
+    color: white;
+    font-weight: bold;
+    border: 1px solid #177245;
+    border-radius: 30% ;
+    width: 20%;
+    background-color:  #177245; 
+}
+.new{
+    background-color:#2faa6d44; 
+    border-radius:300px;
+    width: 45%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.word{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left:9px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.say{
+    color: #177245;
+    font-weight: bold;
+}
+
+.greet{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+.space{
+    background-color: white;
+}

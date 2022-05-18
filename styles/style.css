@@ -1,0 +1,19 @@
+.container-landing{
+    background-image:url("../images/landingpic.jpeg");
+    background-repeat: no-repeat;
+    height:87vh;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.landing{
+    padding: 30vh;
+    font-size: 9vh;
+    justify-content: center;
+}
+
+.landings{
+    /* padding: 1px; */
+    font-size: 9vh;
+    justify-content: center;
+}
