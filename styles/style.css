@@ -1,4 +1,4 @@
-.container-landing{
+.home{
     background-image:url("../images/landingpic.jpeg");
     background-repeat: no-repeat;
     height:87vh;
@@ -7,13 +7,49 @@
 }
 
 .landing{
-    padding: 30vh;
     font-size: 9vh;
     justify-content: center;
 }
 
 .landings{
-    /* padding: 1px; */
-    font-size: 9vh;
+    padding: 3vh;
+    font-size: 7vh;
     justify-content: center;
+}
+
+.about{
+    background-image:url("../images/Screenshot\ 2022-05-19\ 141329.png");
+    background-repeat: no-repeat;
+    height:87vh;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+/* .bio{
+    padding: 20vh;
+} */
+
+.info{
+    
+    font-size: 5vh;
+    /* justify-content: center; */
+}
+.card{
+    width: 50%;
+    gap:5px;
+}
+
+
+
+
+.fea{
+    color: #177245;
+    font-weight: bold; 
+}
+.feature{
+    background-image:url("../images/background.png");
+    background-repeat: no-repeat;
+    height:87vh;
+    background-size: cover;
+    overflow-y: hidden;
 }

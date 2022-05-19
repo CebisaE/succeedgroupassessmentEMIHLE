@@ -2,9 +2,9 @@
     justify-content: center;
 }
 
-.collapse{
+/* .collapse{
     margin-left: 90px;
-}
+} */
 .nav-link{
     font-size: 12px;
     font-weight: bold;
@@ -52,6 +52,8 @@
     list-style: none;
     padding-top: 10px;
     padding-bottom: 1px;
+    justify-content: center;
+    padding-top:3.9vh;
 }
 
 .space{
