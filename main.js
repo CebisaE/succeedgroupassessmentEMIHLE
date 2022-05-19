@@ -55,7 +55,7 @@ function readFeatures(features){
 document.querySelector("#features").innerHTML +=`
 <div class="container">
 <div class="feature">
-    <img src="./images/phone.png">
+    <div class="page">
     <h5 class="fea">ftyhgf</h5>
     <h3>wertygfdsdfghjhgfd</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati amet earum nisi nihil pariatur quasi recusandae, 
@@ -69,14 +69,25 @@ document.querySelector("#features").innerHTML +=`
         </div>  
         <div class="card">
             <div class="card-body">
-                <i class="fa-thin fa-draw-circle"></i>
+            <box-icon name='shape-circle'></box-icon>
             <h3>dfghjhgfsdfghjkjhgf</h3>
             <p>sdfgkjhgfdfghjhgfgfdfghg</p>
             </div>
-        </div>  
+        </div> 
+        </div> 
+        <div class="pic">
+            <img src="./images/phone.png">
+            </div>
 </div>
 </div>
 `;
 };
 readFeatures(features);
+
+function readFaq(faq){
+    document.querySelector("#faq").innerHTML += `
+
+
+    `;
+};
 

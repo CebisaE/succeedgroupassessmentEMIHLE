@@ -41,7 +41,9 @@
 
 
 
-
+.pic{
+    width: 50%;
+}
 .fea{
     color: #177245;
     font-weight: bold; 
