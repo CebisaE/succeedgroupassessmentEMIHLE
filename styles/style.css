@@ -1,5 +1,5 @@
 .home{
-    background-image:url("../images/landingpic.jpeg");
+    background-image:url("../images/netzeroassets.jpg");
     background-repeat: no-repeat;
     height:87vh;
     background-size: cover;
@@ -7,14 +7,16 @@
 }
 
 .landing{
-    font-size: 9vh;
+    /* padding: 12.9vh; */
     justify-content: center;
+    margin:17vh;
 }
-
+/* .btn{
+    margin:vh;
+} */
 .landings{
-    padding: 3vh;
-    font-size: 7vh;
-    justify-content: center;
+    font-size: 12vh;
+    /* justify-content: center; */
 }
 
 .about{
