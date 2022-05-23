@@ -1,0 +1,39 @@
+.container{
+    background-image:url("../images/Screenshot\ 2022-05-19\ 141329.png");
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+    overflow-y: hidden;
+    display: flex;
+    margin: 100px;
+}
+
+.info{
+    font-size: 5vh;
+}
+
+.card{
+    gap:5px;
+}
+
+.img{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+.pic1{
+    width: 65%;
+    position:relative ;
+    top: 0;
+    left:100px;
+    border: 1px red solid;
+}
+
+.pic2{
+    position: absolute;
+    top: 400px;
+    left: 320px;
+    border: 1px green solid;
+}

@@ -2,19 +2,19 @@ function readLanding(landing){
         document.querySelector("#landing").innerHTML += `
         
 <div class="row">
-    <div class="col-10">
-        <div class="home">
-            <div class="landing">
-            <h1 class="landings">Digital Design </h1>
-            <h1 class="landings">Studio</h1></h1>
+    <div class="col-11">
+        <div class="ekhaya">
+            <div class="lwamkelo">
+            <h1 class="wamkelekile">Digital Design </h1>
+            <h1 class="wamkelekile">Studio</h1></h1>
             <div class="btn">
-            <button type="button" class="btn btn-success">See Works<i class="bi bi-arrow-right-circle"></i></button>
+            <button type="button" class="btn btn-success">See Works <box-icon name='chevron-right' type='solid' animation='tada' rotate='90' color="white" size="xsm"></box-icon></button>
             </div>
             </div>
         </div>
         </div>
-        <div class="col-2">
-            <h5>EXPLORE MORE</h5>
+        <div class="col-1 explore">
+            <h5 class="rotate">EXPLORE MORE</h5>
         </div>
     </div>
 
@@ -24,29 +24,33 @@ readLanding(landing);
 
 function readAbout(about){
 document.querySelector('#about').innerHTML += `
-    <div class="container">
+<div class="container">
+<div class="col-4">
             <div class="about">
                 <div class="bio">
-                <h1 class="info">dfghjkmnbvcghjdsfgmnbhgfghj</h1>
-                <h1 class="info">dfghjklkjhgfgd</h1>
+                <h1 class="info">We are here to help</h1>
+                <h1 class="info">you with</h1>
                 </div>
                     <div class="card">
                         <div class="card-body">
-                        <h3><i class="fa-thin fa-draw-circle"></i>dfghjhgfsdfghjkjhgf</h3>
-                        <p>sdfgkjhgfdfghjhgfgfdfghg</p>
+                        <h3><box-icon name='shape-circle'></box-icon></i>UI & UX Design</h3>
+                        <p>A complete about-face in its core economy Amsterdams</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                        <h3><i class="fa-thin fa-draw-circle"></i>dfghjhgfsdfghjkjhgf</h3>
-                        <p>sdfgkjhgfdfghjhgfgfdfghg</p>
+                        <h3><box-icon name='expand'></box-icon>React & Vue JS</h3>
+                        <p>Amsterdams progressive multicultural conscientious</p>
                         </div>
                     </div>
-                    <div class="img">
-                        <img src="./images/transactions.png">
-                        <img src="./images/expense.png">
                     </div>
-            </div>
+                    </div>
+                    <div class="col-8">
+                    <div class="img">
+                        <img class="pic2" src="./images/expense.png">
+                        <img class="pic1" src="./images/transactions.png">
+                    </div>
+                    </div>
     </div>
 `;
 };
@@ -55,30 +59,45 @@ readAbout(about);
 
 function readFeatures(features){
 document.querySelector("#features").innerHTML +=`
-<div class="container">
+<div class="containers">
 <div class="feature">
+<div class="row">
+<div class="col-5">
+<div class="pic">
+    <img class="android" src="./images/phone.png">
+    </div>
+    </div>
+<div class="col-7">
     <div class="page">
-    <h5 class="fea">ftyhgf</h5>
-    <h3>wertygfdsdfghjhgfd</h3>
+    <h5 class="fea">FEATURES</h5>
+    <h2>Web Development</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati amet earum nisi nihil pariatur quasi recusandae, 
         perspiciatis officiis saepe adipisci aperiam consequuntur</p>
+        <div class="row g-6">
+        <div class="col-6">
         <div class="card">
             <div class="card-body">
-                <i class="fa-thin fa-draw-circle"></i>
-            <h3>dfghjhgfsdfghjkjhgf</h3>
-            <p>sdfgkjhgfdfghjhgfgfdfghg</p>
-            </div>
+            <box-icon name='expand'></box-icon>
+                </div>
+            <h3>UI & UX Design</h3>
+            <p>A complete about-face in its core economy Amsterdams</p>
+            
         </div>  
+        </div>
+        <div class="col-6">
         <div class="card">
             <div class="card-body">
             <box-icon name='shape-circle'></box-icon>
-            <h3>dfghjhgfsdfghjkjhgf</h3>
-            <p>sdfgkjhgfdfghjhgfgfdfghg</p>
+            </div>
+            <h3>React & Vue JS</h3>
+            <p>Amsterdams progressive multicultural conscientious</p>
+            </div>
             </div>
         </div> 
+        </div>
         </div> 
-        <div class="pic">
-            <img src="./images/phone.png">
+        </div>
+      
             </div>
 </div>
 </div>
@@ -88,50 +107,60 @@ readFeatures(features);
 
 function readFaq(faq){
     document.querySelector("#faq").innerHTML += `
-    <div class="container">
+    <div class="containers">
+    <div class="row">
+    <div class="col-6">
     <div class="faqs">
-        <h5 class="fea">rtyujhgertyuhg</h5>
-        <h2>sfghjkjhgfddfghj,mnbvcxfghjhgfdtyhvfghjhg</h2>
+        <h5 class="fea">FAQ</h5>
+        <h2>Frequently Asked Question</h2>
     </div>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Accordion Item #1
+            You  might remember the Dell computer ?
             </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            We would be pleased to learn more about you,your organisation and your goals. please give us a clall or drop us an email."They were always".
             </div>
         </div>
         </div>
         <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
+            An effective FAQ resource can educate ?
             </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Turpis tincidunt id aliquet risus feugiat. Tempus iaculis urna id volutpat.
             </div>
         </div>
         </div>
         <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
+        it is text heavy,blocked into key topic ?
             </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Turpis tincidunt id aliquet risus feugiat. Tempus iaculis urna id volutpat.
             </div>
         </div>
         </div>
     </div>
+    </div>
+    <div class="col-6">
     <img src="./images/person.png">
+    </div>
+    </div>
 </div>
 
     `;
@@ -140,23 +169,25 @@ readFaq(faq);
 
 function readContact(contact){
     document.querySelector("#contact").innerHTML += `
-<div class="container">
+<div class="containers">
     <div class="con">
-    <h5 class="fea">rtyujhgertyuhg</h5>
-    <h2>sfghjkjhgfddfghj</h2>
+    <h5 class="fea">EMAIL</h5>
+    <h2>Contact us</h2>
 </div>
 <div class="form-floating mb-3">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-    <label for="floatingInput">Email address</label>
+    <input type="name" class="form-control" id="floatingInput" placeholder="Enter your full name">
+    <label for="floatingInput">Enter your full name</label>
 </div>
 <div class="form-floating">
-    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-    <label for="floatingPassword">Password</label>
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput"> Enter your email address</label>
 </div>
 <div class="mb-3">
-    <label for="formFile" class="form-label">Default file input example</label>
+    <label for="formFile" class="form-label">Your Budget</label>
     <input class="form-control" type="file" id="formFile">
 </div>
+<button type="button" class="btn btn-success">Send</i></button>
+
 <div class="logo">
     <img src="./images/scania-logo-vector-download-free-11574208017dz1swx5qgt.png">
     <img src="./images/images.png">

@@ -1,0 +1,21 @@
+.pic{
+    width: 100%;
+    padding-left: 20vh;
+}
+.fea{
+    color: #177245;
+    font-weight: bold; 
+}
+.feature{
+    background-image:url("../images/background.png");
+    background-repeat: no-repeat;
+    height:120vh;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.android{
+    border-radius: 50px;
+}
+
+

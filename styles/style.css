@@ -1,59 +1,55 @@
-.home{
+.ekhaya{
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    height:120vh;
+    /* margin: 12vh; */
+    /* width:188vh; */
+    background-size: cover;
+    overflow-y: hidden;
     background-image:url("../images/netzeroassets.jpg");
-    background-repeat: no-repeat;
-    height:87vh;
-    background-size: cover;
-    overflow-y: hidden;
 }
 
-.landing{
-    /* padding: 12.9vh; */
+.lwamkelo{
     justify-content: center;
-    margin:17vh;
+    margin:26vh;
+    padding-top: 20vh;
 }
-/* .btn{
-    margin:vh;
-} */
-.landings{
+
+.wamkelekile{
     font-size: 12vh;
-    /* justify-content: center; */
 }
 
-.about{
-    background-image:url("../images/Screenshot\ 2022-05-19\ 141329.png");
-    background-repeat: no-repeat;
-    height:87vh;
-    background-size: cover;
-    overflow-y: hidden;
+.rotate{
+    writing-mode: tb-rl;
+    transform: rotate(-360deg);
+    position:absolute; 
+    bottom:0;
+    color:#177245;
 }
 
-/* .bio{
-    padding: 20vh;
-} */
-
-.info{
-    
-    font-size: 5vh;
-    /* justify-content: center; */
+.btn{
+    font-weight: bold;
+    font-size:3vh;
 }
-.card{
-    width: 50%;
-    gap:5px;
+
+.icon{
+    color: antiquewhite;
 }
 
 
+/* media queries  */
 
-.pic{
-    width: 50%;
+@media only screen and (min-width: 1200px) {
+    .ekhaya {
+        background-image:url("../images/netzeroassets.jpg");
+        /* width: 195vh; */
+    }
 }
-.fea{
-    color: #177245;
-    font-weight: bold; 
-}
-.feature{
-    background-image:url("../images/background.png");
-    background-repeat: no-repeat;
-    height:87vh;
-    background-size: cover;
-    overflow-y: hidden;
+
+@media only screen and (max-width: 320px) {
+    .ekhaya {
+        background-image:url("../images/background.png");
+        /* width: 195vh; */
+    }
 }
