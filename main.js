@@ -15,7 +15,7 @@ document.querySelector('#about').innerHTML += `
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h3><box-icon name='collapse' color='aqua' ></box-icon>React & Vue JS</h3>
+                            <h3><box-icon name='collapse' animation='spin' rotate='90' color='#1fbab7' ></box-icon>React & Vue JS</h3>
                             <p class="description">Amsterdams progressive multicultural conscientious</p>
                         </div>
                     </div>
