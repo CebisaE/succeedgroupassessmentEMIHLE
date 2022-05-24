@@ -34,21 +34,19 @@ readAbout(about);
 
 function readFeatures(features){
 document.querySelector("#features").innerHTML +=`
-<div class="containers">
-<div class="feature">
 <div class="row">
-<div class="col-5">
+<div class="col-4">
 <div class="pic">
     <img class="android" src="./images/phone.png">
     </div>
     </div>
-<div class="col-7">
+<div class="col-8">
     <div class="page">
     <h5 class="fea">FEATURES</h5>
-    <h2>Web Development</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati amet earum nisi nihil pariatur quasi recusandae, 
-        perspiciatis officiis saepe adipisci aperiam consequuntur</p>
-        <div class="row g-6">
+    <h1 class="web">Web Development</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Obcaecati amet earum nisi nihil pariatur quasi recusandae</p>
+    <div class="site">
         <div class="col-6">
         <div class="card">
             <div class="card-body">
@@ -68,14 +66,10 @@ document.querySelector("#features").innerHTML +=`
             <p>Amsterdams progressive multicultural conscientious</p>
             </div>
             </div>
-        </div> 
-        </div>
-        </div> 
-        </div>
-      
             </div>
-</div>
-</div>
+        </div>
+        </div> 
+        </div>
 `;
 };
 readFeatures(features);
