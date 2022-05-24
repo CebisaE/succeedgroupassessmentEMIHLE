@@ -6,11 +6,13 @@
 .nav-item{
     margin-left: 50px;
 }
-
+.navbar-brand{
+    margin-left: 27vh;
+}
 .nav-but{
     margin-left: 90px;
 }
-.iqhosha{
+.btns{
     color: white;
     font-weight: bold;
     border: 1px solid #177245;
@@ -18,16 +20,13 @@
     width: 20%;
     background-color:  #177245; 
 }
-.kraca{
+.new{
     background-color:#2faa6d44; 
     border-radius:250px;
-    /* width: 45%;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px; */
+    margin-right: 10vh;
 }
 
-.igama{
+.word{
     padding-top: 10px;
     padding-bottom: 1px;
     padding-left:9px;
@@ -36,31 +35,17 @@
     justify-content: center;
 }
 
-.thetha{
+.say{
     color: #177245;
     font-weight: bold;
 }
 
-.bulisa{
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    justify-content: center;
-    padding-top:3.9vh;
-}
-
-.phakathi{
+.inside{ 
+    /* padding-top: 5vh; */
     background-color: white;
 }
 
-
-/* media queries */
-
-@media screen and (max-width: 800px) {
-    .thetha {
-        width: 0;
-}
-.phakathi{ 
-    background-color:blue;
-}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 80px;
 }

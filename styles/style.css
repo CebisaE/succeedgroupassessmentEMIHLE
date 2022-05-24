@@ -1,22 +1,20 @@
-.ekhaya{
+.home{
     background-position: center;
-    /* background-attachment: fixed; */
     background-repeat: no-repeat;
-    height:120vh;
-    /* margin: 12vh; */
-    /* width:188vh; */
+    height:100vh;
     background-size: cover;
+    width: 100%;
     overflow-y: hidden;
     background-image:url("../images/netzeroassets.jpg");
 }
 
-.lwamkelo{
+.landing{
     justify-content: center;
     margin:26vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
 
-.wamkelekile{
+.landings{
     font-size: 12vh;
 }
 
@@ -37,19 +35,7 @@
     color: antiquewhite;
 }
 
-
-/* media queries  */
-
-@media only screen and (min-width: 1200px) {
-    .ekhaya {
-        background-image:url("../images/netzeroassets.jpg");
-        /* width: 195vh; */
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .ekhaya {
-        background-image:url("../images/background.png");
-        /* width: 195vh; */
-    }
+.navigation{
+    display: grid;
+    grid-template-columns: 1fr 80px;
 }

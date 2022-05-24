@@ -1,21 +1,25 @@
-.container{
+#about{
     background-image:url("../images/Screenshot\ 2022-05-19\ 141329.png");
     background-repeat: no-repeat;
-    height:100vh;
+    height:125vh;
     background-size: cover;
     overflow-y: hidden;
     display: flex;
-    margin: 100px;
+    margin: 25vh;
 }
 
 .info{
-    font-size: 5vh;
+    font-size: 7vh;
 }
 
 .card{
-    gap:5px;
-}
 
+    margin-bottom:50px;
+    border: 0;
+}
+.description{
+    font-size:3vh;
+}
 .img{
     position: relative;
     top: 0;
@@ -23,17 +27,22 @@
     
 }
 
+/* .box{
+    color: aqua;
+} */
 .pic1{
-    width: 65%;
+    width: 55%;
     position:relative ;
     top: 0;
     left:100px;
-    border: 1px red solid;
+    border: 1px white solid;
+    border-radius: 60px;
 }
 
 .pic2{
     position: absolute;
-    top: 400px;
-    left: 320px;
-    border: 1px green solid;
+    top: 45vh;
+    left: 30vh;
+    border: 1px white solid;
+    border-radius: 60px;
 }

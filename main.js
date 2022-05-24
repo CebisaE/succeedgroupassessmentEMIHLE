@@ -1,57 +1,32 @@
-function readLanding(landing){
-        document.querySelector("#landing").innerHTML += `
-        
-<div class="row">
-    <div class="col-11">
-        <div class="ekhaya">
-            <div class="lwamkelo">
-            <h1 class="wamkelekile">Digital Design </h1>
-            <h1 class="wamkelekile">Studio</h1></h1>
-            <div class="btn">
-            <button type="button" class="btn btn-success">See Works <box-icon name='chevron-right' type='solid' animation='tada' rotate='90' color="white" size="xsm"></box-icon></button>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class="col-1 explore">
-            <h5 class="rotate">EXPLORE MORE</h5>
-        </div>
-    </div>
-
-        `;
-};
-readLanding(landing);
 
 function readAbout(about){
 document.querySelector('#about').innerHTML += `
-<div class="container">
-<div class="col-4">
+    <div class="col-4">
             <div class="about">
                 <div class="bio">
-                <h1 class="info">We are here to help</h1>
-                <h1 class="info">you with</h1>
+                    <h1 class="info">We are here to help</h1>
+                    <h1 class="info">you with</h1>
                 </div>
                     <div class="card">
                         <div class="card-body">
-                        <h3><box-icon name='shape-circle'></box-icon></i>UI & UX Design</h3>
-                        <p>A complete about-face in its core economy Amsterdams</p>
+                            <h3><box-icon name='shape-circle' animation='spin' rotate='90' color='#1fbab7' size='md'></box-icon>UI & UX Design</h3>
+                            <p class="description">A complete about-face in its core economy Amsterdams</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                        <h3><box-icon name='expand'></box-icon>React & Vue JS</h3>
-                        <p>Amsterdams progressive multicultural conscientious</p>
+                            <h3><box-icon name='collapse' color='aqua' ></box-icon>React & Vue JS</h3>
+                            <p class="description">Amsterdams progressive multicultural conscientious</p>
                         </div>
                     </div>
-                    </div>
-                    </div>
-                    <div class="col-8">
+            </div>
+    </div>
+                <div class="col-8">
                     <div class="img">
                         <img class="pic2" src="./images/expense.png">
                         <img class="pic1" src="./images/transactions.png">
                     </div>
-                    </div>
-    </div>
+                </div> 
 `;
 };
 
