@@ -79,10 +79,10 @@ function readFaq(faq){
     document.querySelector("#faq").innerHTML += `
     <div class="containers">
     <div class="row">
-    <div class="col-6">
+    <div class="col-6 accord">
     <div class="faqs">
         <h5 class="fea">FAQ</h5>
-        <h2>Frequently Asked Question</h2>
+        <h2 class="web">Frequently Asked Question</h2>
     </div>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
@@ -127,8 +127,8 @@ function readFaq(faq){
         </div>
     </div>
     </div>
-    <div class="col-6">
-    <img src="./images/person.png">
+    <div class="col-6 person">
+    <img src="./images/person.png" class="guy">
     </div>
     </div>
 </div>
@@ -139,10 +139,10 @@ readFaq(faq);
 
 function readContact(contact){
     document.querySelector("#contact").innerHTML += `
-<div class="containers">
+<div class="container">
     <div class="con">
     <h5 class="fea">EMAIL</h5>
-    <h2>Contact us</h2>
+    <h1 class="web">Contact us</h1>
 </div>
 <div class="form-floating mb-3">
     <input type="name" class="form-control" id="floatingInput" placeholder="Enter your full name">
@@ -157,14 +157,14 @@ function readContact(contact){
     <input class="form-control" type="file" id="formFile">
 </div>
 <button type="button" class="btn btn-success">Send</i></button>
-
-<div class="logo">
-    <img src="./images/scania-logo-vector-download-free-11574208017dz1swx5qgt.png">
-    <img src="./images/images.png">
-    <img src="./images/logo-hirez.webp">
-    <img src="./images/videotelephony-company-appear-in-c-o-telenor-digital-as-web-browser-png-favpng-DhhaT7Dz1zsdcxxfTbJaE4w4K.jpg">
-    </div>
+<div class="logo2">
+<img src="./images/logo-hirez-min.png" class="logo">
+<img src="./images/logo-algolia-nebula-blue-full.png">
+<img src="./images/videotelephony-company-appear-in-c-o-telenor-digital-as-web-browser-png-favpng-DhhaT7Dz1zsdcxxfTbJaE4w4K-removebg-preview.png">
+<img src="./images/2-removebg-preview.png" class="logo">
 </div>
+</div>
+
 `;
 };
 readContact(contact);
