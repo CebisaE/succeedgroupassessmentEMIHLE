@@ -9,13 +9,13 @@ document.querySelector('#about').innerHTML += `
                 </div>
                     <div class="card">
                         <div class="card-body">
-                            <h3><box-icon name='shape-circle' animation='spin' rotate='90' color='#1fbab7' size='md'></box-icon>UI & UX Design</h3>
+                            <h3><box-icon name='shape-circle' animation='spin' rotate='90' color='#1fbab7'></box-icon>UI & UX Design</h3>
                             <p class="description">A complete about-face in its core economy Amsterdams</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h3><box-icon name='collapse' animation='spin' rotate='90' color='#1fbab7' ></box-icon>React & Vue JS</h3>
+                            <h3><box-icon name='expand' animation='spin' rotate='90' color='#1fbab7' ></box-icon>React & Vue JS</h3>
                             <p class="description">Amsterdams progressive multicultural conscientious</p>
                         </div>
                     </div>
@@ -34,6 +34,7 @@ readAbout(about);
 
 function readFeatures(features){
 document.querySelector("#features").innerHTML +=`
+<div class="contain">
 <div class="row">
 <div class="col-4">
 <div class="pic">
@@ -44,15 +45,14 @@ document.querySelector("#features").innerHTML +=`
     <div class="page">
     <h5 class="fea">FEATURES</h5>
     <h1 class="web">Web Development</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    Obcaecati amet earum nisi nihil pariatur quasi recusandae</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     <div class="site">
         <div class="col-6">
         <div class="card">
             <div class="card-body">
-            <box-icon name='expand'></box-icon>
+            <box-icon name='expand' color='#e12d2d' class="icon1"></box-icon>
                 </div>
-            <h3>UI & UX Design</h3>
+            <h5 class="tech">UI & UX Design</h5>
             <p>A complete about-face in its core economy Amsterdams</p>
             
         </div>  
@@ -60,9 +60,9 @@ document.querySelector("#features").innerHTML +=`
         <div class="col-6">
         <div class="card">
             <div class="card-body">
-            <box-icon name='shape-circle'></box-icon>
+            <box-icon name='shape-circle'  color='#1fbab7' class="icon2"></box-icon>
             </div>
-            <h3>React & Vue JS</h3>
+            <h5 class="tech">React & Vue JS</h5>
             <p>Amsterdams progressive multicultural conscientious</p>
             </div>
             </div>
@@ -70,6 +70,7 @@ document.querySelector("#features").innerHTML +=`
         </div>
         </div> 
         </div>
+       </div>
 `;
 };
 readFeatures(features);

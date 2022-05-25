@@ -9,7 +9,7 @@
 #features{
     background-image:url("../images/background.png");
     background-repeat: no-repeat;
-    height:110vh;
+    height:128vh;
     background-size: cover;
     overflow-y: hidden;
     /* display: flex; */
@@ -17,24 +17,43 @@
 
 .android{
     border-radius: 50px;
+    width: 80%;
+    margin:10vh;
 }
 
 
 .web{
-    font-size: 7vh;
+    font-size: 6vh;
 }
 
-.row{
-    margin:25vh;
+.contain{
+    margin:10em;
 }
 
 .site{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding:50px;
+    justify-content: center;
+    row-gap: 10px;
+    /* margin:10vh; */
 }
 
 .page{
-    padding: 50px;
+    padding: 31vh;
+}
+
+.tech{
+    font-size: 3vh;
+}
+
+.icon1{
+    background: #e12d2d62;
+    border: 50vh;
+    border-radius: 100%;
+}
+
+.icon2{
+    background: #1fbab77a;
+    border: 100vh;
+    border-radius: 100vh;
 }
