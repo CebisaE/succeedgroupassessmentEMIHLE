@@ -1,83 +1,49 @@
 
-function readAbout(about){
-document.querySelector('#about').innerHTML += `
-    <div class="col-4">
-            <div class="about">
-                <div class="bio">
-                    <h1 class="info">We are here to help</h1>
-                    <h1 class="info">you with</h1>
-                </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3><box-icon name='shape-circle' animation='spin' rotate='90' color='#1fbab7'></box-icon>UI & UX Design</h3>
-                            <p class="description">A complete about-face in its core economy Amsterdams</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h3><box-icon name='expand' animation='spin' rotate='90' color='#1fbab7' ></box-icon>React & Vue JS</h3>
-                            <p class="description">Amsterdams progressive multicultural conscientious</p>
-                        </div>
-                    </div>
-            </div>
-    </div>
-                <div class="col-8">
-                    <div class="img">
-                        <img class="pic2" src="./images/expense.png">
-                        <img class="pic1" src="./images/transactions.png">
-                    </div>
-                </div> 
-`;
-};
-
-readAbout(about);
-
 function readFeatures(features){
 document.querySelector("#features").innerHTML +=`
 <div class="contain">
-<div class="row">
-<div class="col-4">
-<div class="pic">
-    <img class="android" src="./images/phone.png">
-    </div>
-    </div>
-<div class="col-8">
-    <div class="page">
-    <h5 class="fea">FEATURES</h5>
-    <h1 class="web">Web Development</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div class="site">
-        <div class="col-6">
-        <div class="card">
-            <div class="card-body">
-            <box-icon name='expand' color='#e12d2d' class="icon1"></box-icon>
+    <div class="row">
+        <div class="col-4">
+            <div class="pic">
+                <img class="android" src="./images/phone.png">
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="page">
+                    <h5 class="fea">FEATURES</h5>
+                    <h1 class="web">Web Development</h1>
+                    <p class="descriptions">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="site">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <box-icon name='expand' color='#e12d2d' class="icon1"></box-icon>
+                            </div>
+                            <h5 class="tech">UI & UX Design</h5>
+                            <p class="descriptions">A complete about-face in its core economy Amsterdams</p>
+                        </div>  
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <box-icon name='shape-circle'  color='#1fbab7' class="icon2"></box-icon>
+                            </div>
+                            <h5 class="tech">React & Vue JS</h5>
+                            <p class="descriptions">Amsterdams progressive multicultural conscientious</p>
+                        </div>
+                    </div>
                 </div>
-            <h5 class="tech">UI & UX Design</h5>
-            <p>A complete about-face in its core economy Amsterdams</p>
-            
-        </div>  
-        </div>
-        <div class="col-6">
-        <div class="card">
-            <div class="card-body">
-            <box-icon name='shape-circle'  color='#1fbab7' class="icon2"></box-icon>
             </div>
-            <h5 class="tech">React & Vue JS</h5>
-            <p>Amsterdams progressive multicultural conscientious</p>
-            </div>
-            </div>
-            </div>
-        </div>
         </div> 
-        </div>
-       </div>
+    </div>
+</div>
 `;
 };
 readFeatures(features);
 
 function readFaq(faq){
-    document.querySelector("#faq").innerHTML += `
-    <div class="containers">
+document.querySelector("#faq").innerHTML += `
+<div class="containers">
     <div class="row">
     <div class="col-6 accord">
     <div class="faqs">
@@ -138,31 +104,33 @@ function readFaq(faq){
 readFaq(faq);
 
 function readContact(contact){
-    document.querySelector("#contact").innerHTML += `
-<div class="container">
+document.querySelector("#contact").innerHTML += `
+<div class="containercontact">
     <div class="con">
-    <h5 class="fea">EMAIL</h5>
-    <h1 class="web">Contact us</h1>
-</div>
-<div class="form-floating mb-3">
-    <input type="name" class="form-control" id="floatingInput" placeholder="Enter your full name">
-    <label for="floatingInput">Enter your full name</label>
-</div>
-<div class="form-floating">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-    <label for="floatingInput"> Enter your email address</label>
-</div>
-<div class="mb-3">
-    <label for="formFile" class="form-label">Your Budget</label>
-    <input class="form-control" type="file" id="formFile">
-</div>
-<button type="button" class="btn btn-success">Send</i></button>
-<div class="logo2">
-<img src="./images/logo-hirez-min.png" class="logo">
-<img src="./images/logo-algolia-nebula-blue-full.png">
-<img src="./images/videotelephony-company-appear-in-c-o-telenor-digital-as-web-browser-png-favpng-DhhaT7Dz1zsdcxxfTbJaE4w4K-removebg-preview.png">
-<img src="./images/2-removebg-preview.png" class="logo">
-</div>
+        <h5 class="feas">EMAIL</h5>
+        <h1 class="web">Contact us</h1>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="name" class="form-control" id="floatingInput" placeholder="Enter your full name">
+        <label for="floatingInput" class="form-control">Enter your full name</label>
+    </div>
+    <div class="form-floating">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput" class="form-control"> Enter your email address</label>
+    </div>
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Your Budget</label>
+        <input class="form-control" type="file" id="formFile">
+    </div>
+    <div class="send">
+        <button type="button" class="btn btn-success">Send</i></button>
+    </div>
+    <div class="logo2">
+        <img src="./images/logo-hirez-min.png" class="logo">
+        <img src="./images/logo-algolia-nebula-blue-full.png">
+        <img src="./images/videotelephony-company-appear-in-c-o-telenor-digital-as-web-browser-png-favpng-DhhaT7Dz1zsdcxxfTbJaE4w4K-removebg-preview.png">
+        <img src="./images/2-removebg-preview.png" class="logo">
+    </div>
 </div>
 
 `;

@@ -6,12 +6,15 @@
 .nav-item{
     margin-left: 50px;
 }
+
 .navbar-brand{
     margin-left: 27vh;
 }
+
 .nav-but{
     margin-left: 90px;
 }
+
 .btns{
     color: white;
     font-weight: bold;
@@ -20,6 +23,7 @@
     width: 20%;
     background-color:  #177245; 
 }
+
 .new{
     background-color:#2faa6d44; 
     border-radius:250px;
@@ -41,7 +45,6 @@
 }
 
 .inside{ 
-    /* padding-top: 5vh; */
     background-color: white;
 }
 

@@ -1,15 +1,15 @@
 #about{
     background-image:url("../images/Screenshot\ 2022-05-19\ 141329.png");
     background-repeat: no-repeat;
-    height:125vh;
+    height:109vh;
     background-size: cover;
     overflow-y: hidden;
     display: flex;
-    margin: 25vh;
 }
 
 .info{
     font-size: 7vh;
+    font-weight: bold;
 }
 
 .card{
@@ -18,6 +18,7 @@
 }
 .description{
     font-size:3vh;
+    font-weight:bold;
 }
 .img{
     position: relative;
@@ -26,9 +27,6 @@
     
 }
 
-/* .box{
-    color: aqua;
-} */
 .pic1{
     width: 55%;
     position:relative ;
@@ -40,8 +38,12 @@
 
 .pic2{
     position: absolute;
-    top: 45vh;
-    left: 30vh;
+    top: 36vh;
+    left: 19vh;
     border: 1px white solid;
     border-radius: 60px;
+}
+
+h3{
+    font-weight:bold;
 }

@@ -10,8 +10,6 @@
 
 .landing{
     justify-content: center;
-    margin:26vh;
-    padding-top: 10vh;
 }
 
 .landings{
@@ -40,4 +38,6 @@
     grid-template-columns: 1fr 80px;
 }
 
-
+.container{
+padding-top:  10vh;
+}

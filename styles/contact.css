@@ -1,45 +1,50 @@
 .text{
     background-image: url(../images/contactback.jpg);
-    /* background-position: center; */
     background-repeat: no-repeat;
     height:90vh;
     background-size: cover;
     width: 100%;
-    position: relative; 
-    top: 0;
-    z-index: 1;
-    float:left;
-    margin-left: 60px;
-    margin-top: 10px;
-    /* overflow-y: hidden; */
-    }
-    .p-3{
-        padding:550rem;
-        color: black;
-        font-weight: bold;
-        margin: -41vh;
-    }
+}
 
-    .logo{
-        width: 15%;
-        
+.p-3{
+    color: black;
+    font-weight: bold;
+}
 
-    }
+.logo{
+    width: 15%;
+}
 
-    .logo2{
-        padding: 10vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+.logo2{
+    padding: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
-    .container{
-        background-color: #fff;
-    z-index: 0;
-    height: 150px;
-    width: 280px;
-    position: absolute;
+.form-control{
+    font-weight: bold;
+}
+.form-label{
+    font-weight: bold;
+}
+
+.containercontact{
+    width: 100vh;
     margin-left: 10px;
     margin-top: 10px;
-        
-    }
+}
+
+.send{
+    padding-left:  40vh;
+}
+
+.con{
+    padding-left:  30vh;
+}
+
+.feas{
+    color: #177245;
+    font-weight: bold; 
+    padding-left:  10vh;
+}

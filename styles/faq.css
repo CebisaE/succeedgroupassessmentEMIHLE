@@ -2,18 +2,11 @@
     font-weight: bold;
 }
 
-/* .accordion{
-    padding-right: 10px;
-} */
-
-#faq{
-    margin: 25vh;
+.accordion-body{
+    font-weight:bold;
+    font-size:  2vh;
 }
 
 .person{
-    padding-right:10vh;
+    padding-right:20vh;
 }
-
-/* .accord{
-    margin:10vh;
-} */
