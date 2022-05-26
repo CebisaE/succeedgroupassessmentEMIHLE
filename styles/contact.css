@@ -1,14 +1,14 @@
 .text{
     background-image: url(../images/contactback.jpg);
     background-repeat: no-repeat;
-    height:90vh;
+    height:100vh;
     background-size: cover;
     width: 100%;
 }
 
 .p-3{
-    color: black;
     font-weight: bold;
+    color: black;
 }
 
 .logo{
@@ -30,9 +30,14 @@
 }
 
 .containercontact{
+    background-color: white;
     width: 100vh;
-    margin-left: 10px;
+    margin-left: 125px;
     margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    border: 50px white solid;
+    border-radius: 50px;
 }
 
 .send{
@@ -47,4 +52,15 @@
     color: #177245;
     font-weight: bold; 
     padding-left:  10vh;
+}
+
+#contact{
+    margin-bottom: -350px;
+}
+
+.footer{
+    margin: 0 auto;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
 }
