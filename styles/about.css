@@ -31,17 +31,18 @@
     width: 55%;
     position:relative ;
     top: 0;
-    left:100px;
+    left: -28px;
     border: 1px white solid;
     border-radius: 60px;
 }
 
 .pic2{
     position: absolute;
-    top: 36vh;
-    left: 19vh;
+    top: 42vh;
+    left: 8vh;
     border: 1px white solid;
     border-radius: 60px;
+    width: 57%;
 }
 
 h3{

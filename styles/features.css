@@ -14,9 +14,9 @@
 
 .android{
     border-radius: 50px;
-    width: 90%;
-    margin: 4vh;
-    margin-left: 16vh;
+    width: 64%;
+    margin-top: 10vh;
+    margin-left: 24vh;
 }
 
 .web{
@@ -28,10 +28,11 @@
     flex-direction: row;
     justify-content: center;
     row-gap: 10px;
+    padding-top: 10vh;
 }
 
 .page{
-    padding:16vh;
+    padding:13vh;
 }
 
 .tech{
